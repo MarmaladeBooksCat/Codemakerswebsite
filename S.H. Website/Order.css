@@ -1,0 +1,100 @@
+
+div {
+  width: 420px;
+  height: 742px;
+  display: inline-block;
+  border: 3px solid purple;
+  border-radius: 21px;
+}
+
+
+
+#teaso {
+  background-color: lavender;
+  margin-right: 56px;
+  margin-left: 56px;
+  float:left;
+}
+
+#coffeeo {
+  background-color:  lavender;
+  margin-right: 56px;
+  margin-left: 56px;
+  float:center;
+}
+
+#juiceo {
+  background-color: lavender;
+  margin-left: 56px;
+  margin-right: 56px;
+  float:right;
+}
+
+#threeo{
+  width:auto;
+  border:none;
+  height:800px;
+}
+
+div {
+  width: 420px;
+  height: 742px;
+  display: inline-block;
+}
+
+#sandwicheso {
+  margin-left: 56px;
+  margin-right: 56px;
+  border: 3px solid purple;
+  float:left;
+  background-color: lavender;
+  border-radius: 21px;
+}
+
+#cakeso {
+  margin-left: 56px;
+  margin-right: 56px;
+  border: 3px solid purple;
+  background-color: lavender;
+  border-radius: 21px;
+}
+
+#cookieo {
+  margin-left: 56px;
+  margin-right: 56px;
+  border: 3px solid purple;
+  float:right;
+  background-color: lavender;
+  border-radius: 21px;
+}
+
+#othero {
+  margin-left: 56px;
+  margin-right: 56px;
+  border: 3px solid purple;
+  margin-top: 56px;
+  background-color: lavender;
+  border-radius: 21px;
+}
+
+#foodso {
+  width: auto;
+  border: none;
+  height: 1700px;
+}
+
+#teaorder {
+  margin-left: 56px;
+  margin-right: 56px;
+  border: 3px solid purple;
+  float:left;
+  background-color: lavender;
+  border-radius: 21px;
+  border-color: #908699
+}
+
+#order {
+  width: auto;
+  border: none;
+  height: 780px
+}

@@ -1,0 +1,83 @@
+div {
+  width: 420px;
+  height: 742px;
+  display: inline-block;
+  border: 3px solid #522e75;
+  border-radius: 21px;
+}
+
+
+
+#teas {
+  background-color: lavender;
+  margin-right: 56px;
+  margin-left: 56px;
+  float:left;
+}
+
+#coffee {
+  background-color:  lavender;
+  margin-right: 56px;
+  margin-left: 56px;
+  float:center;
+}
+
+#juice {
+  background-color: lavender;
+  margin-left: 56px;
+  margin-right: 56px;
+  float:right;
+}
+
+#three{
+  width:auto;
+  border:none;
+  height:800px;
+}
+
+div {
+  width: 420px;
+  height: 742px;
+  display: inline-block;
+}
+
+#sandwiches {
+  margin-left: 56px;
+  margin-right: 56px;
+  border: 3px solid #522e75;
+  float:left;
+  background-color: lavender;
+  border-radius: 21px;
+}
+
+#cakes {
+  margin-left: 56px;
+  margin-right: 56px;
+  border: 3px solid #522e75;
+  background-color: lavender;
+  border-radius: 21px;
+}
+
+#cookie {
+  margin-left: 56px;
+  margin-right: 56px;
+  border: 3px solid #522e75;
+  float:right;
+  background-color: lavender;
+  border-radius: 21px;
+}
+
+#other {
+  margin-left: 56px;
+  margin-right: 56px;
+  border: 3px solid #522e75;
+  margin-top: 56px;
+  background-color: lavender;
+  border-radius: 21px;
+}
+
+#foods {
+  width: auto;
+  border: none;
+  height: 1700px;
+}
