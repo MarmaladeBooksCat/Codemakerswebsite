@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html style="background-color: #afa8b5">
+<head>
+  <title> Tea, Sandwiches & More Order Form </title>
+  <link type="text/css" rel="stylesheet" href="Order.css" />
+
+  <body style="color:#6b6b6b; font-family:Lucida">
+    <br> </br>
+    <h3 style="font-size: 49px;color:#6b6b6b; font-family:Lucida; text-align: center"> Tea, Sandwiches & More </h3>
+    <img style="width:150px; height:150px; display: block; margin: auto; " src="https://s-media-cache-ak0.pinimg.com/736x/b9/c7/f4/b9c7f42cd75109c99289a2f011aa82bf.jpg" border="5">
+    <br>
+    <table border="7px;" style="background-color #776a91; disply: block; margin: auto">
+        <thead style="text-align: center">
+      <tr>
+        <td style="text-align: center;"> <font size="6"> <a href="Website - S.H.html">_____ Home______ </font></a></td> <td style="text-align: center;"><font size="6"> <a href="About Website.html">______ About______ </font> </a> </td> <td style="text-align: center;"><font size="6"> <a href="Website Menu.html"> _______Menu ______</a> </font></td> <td style text-align: center><font size="6"> <a href="Website Order.html"> _______ Contact _______</a> </font></td><td style="text-align: center;"> <font size="6"> <a href="Website Gallery.html">______ Gallery ______</font></a></td>
+      </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <center>
+      <h1> Thank you for placing your order! </h1>
+          </center>
+
+ <form><!---
+  <var> small = 1.25 </var>
+      <div id = "order">
+        <div id="teaorder" style="text-align: center"> <font size="5">   <h3> Teas </h3>
+          Earl Grey: <input type="checkbox" name="tea" style="height: 21px; width: 21px;"> <br><br> </div>
+
+          Coffees:<br>
+          <input type="checkbox" name="coffee" style="height: 21px; width: 21px;">
+          <form name="myForm" action="/action_page_post.php"
+onsubmit="return validateForm()" method="post"> -->
+<h3> Contact Us! </h3>
+Name: <input type="text" name="fname">
+Email: <input type="text" name="femail">
+<input type="submit" value="Submit">
+</form>
+<!--
+        </div>
+      </div>
+
+</form>
+<div id = "order">
+  <script>
+  var price = new Array();
+  price["small"]=1.25;
+  price["medium"]=1.75;
+  price["large"]=2.25;
+
+  price();
+
+
+
+  calculateTotal()
+  {
+  var juiceForm = document.forms["juiceform"];
+
+      //Get a reference to the juice the user Chooses name=selectedJuiceQty":
+      var selectedJuiceQty = juiceForm.elements["selectedJuiceQty"];
+
+      for(var i = 0; i < selectedJuiceQty.length; i++);
+      for(var i = 0; i < selectedJuiceQty.length; i++){
+      var juiceTotal = 0;
+
+      if(selectedJuiceQty[i]>0) {
+          juiceTotal += price[selectedJuiceQty[i].value]*selectedJuiceQty;
+          //If we get a match then we break out of this loop
+          break;
+      }
+      return total;
+    }
+  calculateTotal();
+
+  </script>
+</div>
+-->
+
+</body>
+
+</html>
